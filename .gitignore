@@ -1,0 +1,60 @@
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+
+### VS Code ###
+.vscode/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### Build ###
+/build/
+/target/
+.gradle/
+
+### Logs ###
+*.log
+logs/
+
+### OS ###
+.DS_Store
+Thumbs.db
+
+### Environment ###
+.env
+.env.*
+*.env
+
+### Application secrets ###
+application-local.yml
+application-local.properties
+application-prod.yml
+application-prod.properties
+
+### Java ###
+*.class
+hs_err_pid*
+replay_pid*
+
+### Maven Wrapper (선택) ###
+# mvnw
+# mvnw.cmd
+# .mvn/wrapper/maven-wrapper.jar
