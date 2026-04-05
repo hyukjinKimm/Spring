@@ -13,5 +13,11 @@
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>5.3.34</version> <!-- 최신 안정 버전으로 바꿔도 OK -->
+        </dependency>
+    </dependencies>
 </project>

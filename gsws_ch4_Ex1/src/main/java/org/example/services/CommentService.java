@@ -4,12 +4,16 @@ package org.example.services;
 import org.example.Comment;
 import org.example.proxies.CommentNotificationProxy;
 import org.example.repositories.CommentRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+@Component
 public class CommentService {
 
     private final CommentRepository commentRepository;
     private final CommentNotificationProxy commentNotificationProxy;
 
+    @Autowired
     public CommentService(
             CommentRepository commentRepository,
             CommentNotificationProxy commentNotificationProxy
