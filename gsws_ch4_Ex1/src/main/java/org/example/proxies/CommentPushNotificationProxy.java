@@ -6,8 +6,8 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
-@Primary
-//@Qualifier("PUSH")
+//@Primary
+@Qualifier("PUSH")
 public class CommentPushNotificationProxy implements CommentNotificationProxy{
 
     @Override
